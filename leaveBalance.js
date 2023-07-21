@@ -7,6 +7,7 @@ function calculateLeaveBalance(joiningDate, leaveStartDate){
     const fullYear= (360*24*60*60*1000);
      // Calculate the number of full years of service
   const fullYearsOfService = currentDate.getFullYear() - joiningDate.getFullYear();
-
+// calculating the total number of leaves day for one year or full year of service
+  const totalLeaves = initialLeaveEntitlement + fullYearsOfService;
 
 }
